@@ -1,0 +1,68 @@
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  color: #524240;
+  text-shadow: -1px -1px 10px rgba(59, 22, 4, 0.76);
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-left: 30px;
+  width: 250px;
+  padding: 0 20px;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  color: #524240;
+  outline: #524240;
+}
+
+/* "Add contact" button */
+
+.btnAdd {
+  margin: auto;
+  background: linear-gradient(
+    to right,
+    #e9ce367a 0%,
+    #f7b705 50%,
+    #e9ce367a 100%
+  );
+  background-size: 200%;
+  background-position: 100%;
+  color: #524240;
+  padding: 1em 3em;
+  border-radius: 2em;
+  display: inline-block;
+  box-shadow: 0 0 10px #666516cb;
+  text-shadow: 0 0 7px #000000a1;
+  transition: all 0.7s;
+  border: solid 1px #777f8b46;
+  cursor: pointer;
+}
+
+.btnAdd:hover {
+  background: linear-gradient(
+    to right,
+    #e9ce367a 0%,
+    #f7b705 50%,
+    #e9ce367a 100%
+  );
+  background-size: 200%;
+  background-position: 0px;
+  box-shadow: 0 0 10px #a2ad39;
+  color: #fcfcfc;
+  text-shadow: 0 0 10px #000000be;
+
+  border: solid 1px #fcfcfc;
+}

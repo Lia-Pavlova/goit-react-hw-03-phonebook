@@ -1,0 +1,34 @@
+.filter {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  color: #251413;
+  font-weight: 600;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+  color: #524240;
+}
+
+.input {
+  margin-left: 10px;
+  width: 250px;
+  padding: 0 20px;
+  line-height: 40px;
+  border-width: 0;
+  border-radius: 10px;
+  color: #524240;
+  outline: #524240;
+}

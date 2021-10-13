@@ -1,0 +1,65 @@
+.contacts {
+  width: 600px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  padding-left: 25px;
+  background-color: #fdfdfb;
+  border-radius: 10px;
+  border: 1px solid #ca9f4e;
+  margin: 8px;
+}
+
+.name {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #6e5b32;
+}
+
+.tel {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #524240;
+}
+
+/* "Delete" button */
+
+.btnDel {
+  background: linear-gradient(
+    to right,
+    #f3a15d 0%,
+    #ea2a2abb 50%,
+    #f3a15d 100%
+  );
+  background-size: 200%;
+  background-position: 100%;
+  color: #524240;
+  padding: 5px 25px;
+  border-radius: 1em;
+  display: inline-block;
+  box-shadow: 0 0 5px #240812af;
+  text-shadow: 0 0 5px #0000006e;
+  transition: all 0.7s;
+  border: solid 1px #777f8b3a;
+  cursor: pointer;
+}
+
+.btnDel:hover {
+  background: linear-gradient(to right, #fc888e 0%, #ea2a2a 50%, #fc888e 100%);
+  background-size: 200%;
+  background-position: 0px;
+  box-shadow: 0 0 5px #ff7755b7;
+  color: #ccffff;
+  text-shadow: 0 0 10px #0000007a;
+  border: solid 1px #ccffff;
+}

@@ -1,0 +1,33 @@
+.app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 750px;
+  min-height: 600px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(218, 209, 197, 0.055);
+  box-shadow: 0 0 29px #064e4e4d;
+}
+
+.title {
+  width: 700px;
+  background-color: #e9ce36c2;
+  margin-top: 0;
+  padding: 25px;
+  border: solid 0.5px #777f8b28;
+  text-shadow: -4px -3px 5px rgba(59, 22, 4, 0.425);
+  font-weight: 700;
+  font-size: 40px;
+  box-shadow: 0 0 19px #064e4e60;
+  color: #524240d7;
+}
+
+.titleContacts {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #524240;
+  text-shadow: -2px -1px 6px rgba(59, 22, 4, 0.76);
+}
